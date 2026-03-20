@@ -25,6 +25,7 @@ def fetch_and_upload():
     chrome_options.add_argument('--disable-dev-shm-usage')
     chrome_options.add_argument('--disable-blink-features=AutomationControlled')
     chrome_options.add_experimental_option("excludeSwitches", ["enable-automation"])
+    chrome_options.add_argument('--window-size=1920,1080')
     chrome_options.add_experimental_option('useAutomationExtension', False)
 
     service = Service(ChromeDriverManager().install())
