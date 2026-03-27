@@ -5,8 +5,8 @@ import os
 
 # Airtable Credentials
 UPLOAD_URL = 'https://i.textyou.online/campaign/login/signin'
-AIRTABLE_API_KEY = "pat5CgRLCXHna9XPq.9ea1c27ae2822b58ab92bb30dfcc34f19b12c5d35475e762bbac1cc2c94aadb4"
-AIRTABLE_BASE_ID = "appP0F84sv2q9AR5P"
+AIRTABLE_API_KEY = "YOUR_API_KEY"
+AIRTABLE_BASE_ID = "YOUR_BASE_ID"
 AIRTABLE_TABLE_NAME = "DATA_IMPORTS"
 
 
