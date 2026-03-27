@@ -152,6 +152,9 @@ class PhoneBook:
                 # ----- Remove files from my OS temp -----
                 os.remove(self.tmp_path)
 
+        else:
+            print("All files procceed successfully")
+
 
 if __name__ == "__main__":
     dan = PhoneBook()
